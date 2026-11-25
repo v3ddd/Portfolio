@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1e9">
+  <meta name="description" content="Ved Tekale — Computer Science Student and Developer. Explore projects, skills, education, and ways to connect.">
+  <link rel="canonical" href="https://vedddds.pages.dev/">
+  <meta property="og:title" content="Ved Tekale — Developer &amp; Technology Enthusiast">
+  <meta property="og:description" content="Building digital experiences through code. Explore my portfolio, projects, and skills.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vedddds.pages.dev/">
+  <meta property="og:site_name" content="Ved Tekale — Portfolio">
+  <meta property="og:image" content="https://vedddds.pages.dev/assets/og-image-v3.jpg">
+  <meta property="og:image:secure_url" content="https://vedddds.pages.dev/assets/og-image-v3.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="1600">
+  <meta property="og:image:alt" content="Ved Tekale, developer and technology enthusiast">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ved Tekale — Developer &amp; Technology Enthusiast">
+  <meta name="twitter:description" content="Building digital experiences through code. Explore my portfolio, projects, and skills.">
+  <meta name="twitter:image" content="https://vedddds.pages.dev/assets/og-image-v3.jpg">
+  <title>Ved Tekale — Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg?v=2" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="site-data.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Back to home"><span data-bind="brand">[YOUR NAME]</span><i>.</i></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+        <a href="#projects">Projects</a><a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle theme"><span class="theme-icon">◐</span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section shell" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span><span id="hero-kicker">COMPUTER SCIENCE STUDENT · DEVELOPER</span></p>
+        <h1>Hi, I'm <em id="hero-name">Ved Tekale</em><span class="period">.</span></h1>
+        <p class="hero-title" id="hero-title">Building digital experiences through code.</p>
+        <p class="hero-description" id="hero-description">A CSE student exploring web development, programming, and practical technology solutions.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-outline" href="#contact">Get in touch</a>
+          <a class="text-link resume-link" id="resume-link" href="#" target="_blank" rel="noopener" hidden>Download résumé ↓</a>
+        </div>
+        <div class="hero-meta">
+          <span class="availability" id="availability" hidden><i></i><span></span></span>
+          <span id="hero-location">Based in Ahmedabad, India</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="portrait-frame">
+          <img id="profile-image" src="assets/profile.jpg" alt="Portrait of Ved Tekale" onerror="this.closest('.portrait-frame').classList.add('no-image'); this.remove();">
+          <div class="portrait-placeholder" aria-hidden="true"><span>VED<br>TEKALE</span></div>
+        </div>
+        <p class="image-caption"><span>A little introduction</span> — <span id="caption-name">Ved Tekale</span></p>
+        <span class="vertical-note" aria-hidden="true">PORTFOLIO / <span id="vertical-year"></span></span>
+      </div>
+      <a class="scroll-cue" href="#about"><span>Scroll to explore</span><i aria-hidden="true">↓</i></a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="shell section-grid">
+        <div class="section-intro reveal"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Curiosity is where<br><em>everything starts.</em></h2></div>
+        <div class="about-content reveal">
+          <p class="lead" id="about-lead">I am Ved Tekale, a computer science student focused on turning ideas into useful and approachable digital experiences.</p>
+          <div class="about-paragraphs" id="about-paragraphs"></div>
+          <div class="about-facts" id="about-facts"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section shell" id="skills">
+      <div class="section-heading reveal"><div><p class="eyebrow">02 / THE TOOLKIT</p><h2>Skills &amp; <em>interests.</em></h2></div><p class="section-note">Tools I work with, concepts I explore, and abilities I keep sharpening.</p></div>
+      <div class="skills-grid" id="skills-grid"></div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="shell">
+        <div class="section-heading reveal"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've <em>built.</em></h2></div><p class="section-note">A selection of practical experiments and ideas brought to life.</p></div>
+        <div class="projects-grid" id="projects-grid"></div>
+        <p class="empty-note" id="projects-empty" hidden>Projects will appear here when added to <code>site-data.js</code>.</p>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="shell section-grid">
+        <div class="section-intro reveal"><p class="eyebrow">04 / THE FOUNDATION</p><h2>The learning<br><em>continues.</em></h2></div>
+        <div class="education-timeline reveal" id="education-list"></div>
+      </div>
+    </section>
+
+    <section class="section interests-section shell" id="interests" hidden>
+      <div class="section-heading reveal"><div><p class="eyebrow">05 / OUTSIDE THE CODE</p><h2>Curious <em>about.</em></h2></div></div>
+      <div class="interest-tags" id="interests-list"></div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="shell contact-layout">
+        <div class="contact-copy reveal"><p class="eyebrow">05 / START A CONVERSATION</p><h2>Have an idea?<br>Let's build <em>something.</em></h2><p id="contact-message">I am always open to learning opportunities, project collaborations, and conversations about technology.</p></div>
+        <div class="contact-details reveal">
+          <a class="email-link" id="contact-email" href="#" hidden></a>
+          <div class="contact-meta" id="contact-meta"></div>
+          <div class="social-links" id="social-links"></div>
+          <form class="contact-form" id="contact-form">
+            <p class="form-label">Or send a message</p>
+            <label for="form-name">Your name</label><input id="form-name" name="name" autocomplete="name" required>
+            <label for="form-email">Your email</label><input id="form-email" name="email" type="email" autocomplete="email" required>
+            <label for="form-message">Message</label><textarea id="form-message" name="message" rows="3" required></textarea>
+            <button class="button button-dark" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+            <p class="form-hint">This opens your email app with the message prepared; it does not send automatically.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner"><a class="brand" href="#home"><span data-bind="brand">Ved Tekale</span><i>.</i></a><p>Made with curiosity and a lot of learning. © <span id="copyright-year"></span></p><a class="back-top" href="#home">Back to top ↑</a></div>
+  </footer>
+  <noscript><p class="noscript">Please enable JavaScript to view the portfolio content.</p></noscript>
+</body>
+</html>
