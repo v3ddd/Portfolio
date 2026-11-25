@@ -32,8 +32,8 @@ const portfolioData = {
   social: {
     github: "https://github.com/v3ddd",
     linkedin: "",
-    instagram: "",
-    portfolio: "",
+    instagram: "https://www.instagram.com/veddd_0207?dmpr=bXYzZGExdW55cm52",
+    portfolio: "https://github.com/v3ddd/Portfolio",
     other: []
   },
 
